@@ -8,6 +8,21 @@ const app = express();
 // Need help with this step go here: https://firebase.google.com/docs/admin/setup
 // const serviceAccount = require("./REPLACE_WITH_SERVICE_ACCOUNT.json");
 
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBoZbBmaJdY9mzO9Cq3BiqAr4mi2E3IppM",
+    authDomain: "cmf-kluber-for-cy-young.firebaseapp.com",
+    databaseURL: "https://cmf-kluber-for-cy-young.firebaseio.com",
+    projectId: "cmf-kluber-for-cy-young",
+    storageBucket: "cmf-kluber-for-cy-young.appspot.com",
+    messagingSenderId: "345340765351"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
 // TODO: Enter your database url from firebase
 // admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
